@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1700417295724-6248af51880e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_box {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  /* border: 1px solid red; */
+  box-shadow: 3px 3px blue, -5px 4px 10px green;
+  height: 380px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.input_box h1 {
+  margin: 30px 5px;
+}
+
+.input_values {
+  width: 100%;
+  margin: 10px 15px;
+}
+.input_values input {
+  width: 90%;
+  height: 35px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 2px 20px;
+  font-size: 17px;
+  outline: none;
+  margin-right: 20px;
+}
+
+.input_values label {
+  position: relative;
+  left: -25%;
+  bottom: -5px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.input_box .calc_btn {
+  padding: 15px;
+  width: 90%;
+  margin: 20px 0px;
+  margin-right: 20px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+.input_box .calc_btn:hover {
+  background-color: rgb(23, 156, 23);
+  transition: all ease-in-out;
+}
+
+.showResult {
+  margin: 100px 5px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  background-color: black;
+  padding: 20px;
+  border-radius: 30px;
+  opacity: 0.8;
+  /* box-shadow: 10px 5px 5px white; */
+}
+.showResult p {
+  margin: 8px 5px;
+}
